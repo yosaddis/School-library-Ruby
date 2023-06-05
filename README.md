@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 morse_code <a name="about-project"></a>
+# 📖 School Library Project in Ruby <a name="about-project"></a>
 
 **School Library Project in Ruby**  is a Ruby program, using OOP Principles. The application lets you Add person,student,teacher,classroom,book and rental. Also it lets you borrow a book.
 
