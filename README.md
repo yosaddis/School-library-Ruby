@@ -8,7 +8,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -36,6 +35,13 @@
    <li>Ruby</li>
   </ul>
 </details>
+
+### Key Features <a name="key-features"></a>
+
+The App will allow you
+-  Add new students or teachers.
+-  Add new books.
+-  Save records of who borrowed a given book and when.
 
 <!-- Getting Started -->
 
