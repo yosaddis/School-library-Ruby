@@ -12,18 +12,7 @@ class App
     @rentals = []
   end
 
-  def home_page
-    puts 'Welcome to Library App!'
-    until list_of_options
-      input = gets.chomp.to_i
-      if input == 7
-        puts 'Thank you for using Library App!'
-        exit
-      end
-
-      option input
-    end
-  end
+ 
 
   def list_all_persons
     puts 'Person List is empty. Please add a person first.' if @persons.empty?
