@@ -1,8 +1,7 @@
 require './app'
 
 def main
-  app = App.new
-  app.home_page
+  home_page
 end
 
 def home_page
@@ -32,19 +31,20 @@ def list_of_options
 end
 
 def option(input)
+  app = App.new
   case input
   when 1
-    list_all_persons
+    app.list_all_persons
   when 2
-    list_all_books
+    app.list_all_books
   when 3
-    list_all_rentals
+    app.list_all_rentals
   when 4
-    add_person
+    app.add_person
   when 5
-    add_book
+    app.add_book
   when 6
-    add_rentals
+    app.add_rentals
   else
     puts 'Invalid option. Please try again.'
   end
