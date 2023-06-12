@@ -12,8 +12,6 @@ class App
     @rentals = []
   end
 
- 
-
   def list_all_persons
     puts 'Person List is empty. Please add a person first.' if @persons.empty?
     @persons.each do |person|
