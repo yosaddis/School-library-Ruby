@@ -90,6 +90,11 @@ To run tests, run the following command:
 - GitHub: [@yosaddis](https://github.com/yosaddis)
 - Twitter: [Yoseph Addisu](https://linkedin.com/in/yoseph-addisu-abate)
 
+👤 **Cosmos Hagan**
+
+- GitHub: [@cosmosha](https://github.com/cosmosha)
+- Linked-In: [Cosmos Hagan](https://linkedin.com/in/cosmoshagan)
+
 <p align="right"><a href="#readme-top">👆</a></p>
 
 <!-- FUTURE FEATURES -->
