@@ -61,7 +61,7 @@ class App
     end
   end
 
-  def add_teacher
+  def add_teacher(persons)
     puts 'Creating a teacher'
     puts 'Age : '
     age = gets.chomp.to_i
