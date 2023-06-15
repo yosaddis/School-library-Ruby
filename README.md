@@ -42,6 +42,7 @@ The App will allow you
 -  Add new students or teachers.
 -  Add new books.
 -  Save records of who borrowed a given book and when.
+-  Save the created transactions to a JSON file on exit
 
 <!-- Getting Started -->
 
