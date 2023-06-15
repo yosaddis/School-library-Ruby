@@ -6,12 +6,6 @@ require './book'
 require './class_room'
 
 class App
-  def initialize()
-    # @persons = persons
-    # @books = books
-    # @rentals = rentals
-  end
-
   def list_all_persons(persons)
     puts 'Person List is empty. Please add a person first.' if persons.empty?
     persons.each do |person|
@@ -61,7 +55,7 @@ class App
     end
   end
 
-  def add_teacher
+  def add_teacher(persons)
     puts 'Creating a teacher'
     puts 'Age : '
     age = gets.chomp.to_i
