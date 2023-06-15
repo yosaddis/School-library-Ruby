@@ -1,27 +1,36 @@
 require './app'
+require './persistent_data'
 
 @persons = []
 @books = []
 @rentals = []
 
 def main
+  @persons = PersistentData.read_persons
+  @books = PersistentData.read_books
+  @rentals = PersistentData.read_rentals(@persons, @books)
   home_page
 end
 
 def home_page
+  puts '============================='
   puts 'Welcome to Library App!'
+  puts '============================='
   until list_of_options
     input = gets.chomp.to_i
     if input == 7
       puts 'Thank you for using Library App!'
+      PersistentData.save_persons(@persons)
+      PersistentData.save_books(@books)
+      PersistentData.save_rentals(@rentals)
       exit
     end
-
     option input
   end
 end
 
 def list_of_options
+  puts '*********************************'
   puts
   puts 'Please select an option by entering a number:'
   puts '1. List all books'
@@ -31,6 +40,8 @@ def list_of_options
   puts '5. Create a rental'
   puts '6. List all rentals for a given person id'
   puts '7. Exit'
+  puts
+  puts '*********************************'
   puts
 end
 
