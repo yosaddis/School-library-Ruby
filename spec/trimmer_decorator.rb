@@ -9,4 +9,7 @@ describe TrimmerDecorator do
   it 'Should create be kind  of Nameable' do
     expect(trimmer_decorator).to be_kind_of(BaseDecorator)
   end
+  it 'Should respond to correct_name' do
+    expect(trimmer_decorator).to respond_to(:correct_name)
+  end
 end
