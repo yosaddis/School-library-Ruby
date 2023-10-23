@@ -23,7 +23,7 @@
 
 # 📖 School Library Project in Ruby <a name="about-project"></a>
 
-**School Library Project in Ruby**  is a Ruby program, using OOP Principles. The application lets you Add person,student,teacher,classroom,book and rental. Also it lets you borrow a book.
+**School Library Project in Ruby** is a Ruby program, using OOP Principles. The application lets you Add person,student,teacher,classroom,book and rental. Also it lets you borrow a book.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,10 +39,11 @@
 ### Key Features <a name="key-features"></a>
 
 The App will allow you
--  Add new students or teachers.
--  Add new books.
--  Save records of who borrowed a given book and when.
--  Save the created transactions to a JSON file on exit
+
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
+- Save the created transactions to a JSON file on exit
 
 <!-- Getting Started -->
 
@@ -70,6 +71,14 @@ Install the dependencies using npm:
 
 ```bash
 bundler install
+```
+
+### Run the app
+
+To run the app on your console, run the following command:
+
+```bash
+  ruby .\main.rb
 ```
 
 ### Run tests
